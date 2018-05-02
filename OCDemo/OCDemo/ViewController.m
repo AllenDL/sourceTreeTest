@@ -108,6 +108,7 @@
         // 滑动没有超过停止点,头部视图跟随移动
         if (contentOffsetY < headerViewScrollStopY) {
             self.headerView.y = - tableView.contentOffset.y;
+            
         } else {
             self.headerView.y = - headerViewScrollStopY;
         }
