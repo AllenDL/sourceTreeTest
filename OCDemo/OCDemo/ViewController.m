@@ -60,6 +60,9 @@
                            options:NSKeyValueObservingOptionNew
                            context:nil];
     [_mainScrollView addSubview:_tableView];
+    
+    
+    
 }
 
 - (void)tapBtn:(UIButton *)sender
